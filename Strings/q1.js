@@ -9,7 +9,7 @@ function reverse_string(str) {
     return reversed;
 }
 
-  let str = "hello"
+  let str = "hey buddy kaise ho"
   let reversed_string = reverse_string(str)
   console.log(reversed_string) 
   
