@@ -1,7 +1,12 @@
 // Add Element to End of Array
 function addElementToEnd(arr, element) {
-    return arr.push(element); // returns the new length of the array
+    return arr.push(element);
+    
   }
+  const arr=[1,2,3,4,5];
+  const element=[6,7];
+  let call=addElementToEnd(arr, element) 
+  console.log(call);
   
   // Remove Last Element from Array
   function removeLastElement(arr) {
